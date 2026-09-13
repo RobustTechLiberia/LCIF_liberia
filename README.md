@@ -143,13 +143,3 @@ id, member_due_id, amount_paid, method, reference, status, payment_date
 
 
 
-## Contribution Guidelines
-- Use feature-based branching (feature/*, fix/*)  
-- Write clean, maintainable code  
-- Submit pull requests with clear descriptions  
-- Ensure proper testing before merge  
-
-
-
-## License
-Proprietary - Lion Club Liberia
