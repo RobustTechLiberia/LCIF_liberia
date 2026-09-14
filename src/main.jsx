@@ -7,6 +7,7 @@ import App from "./App.jsx";
 const basename =
   import.meta.env.MODE === "production" &&
   !window.location.hostname.includes("vercel.app")
+    ? "/LCIF_liberia"
     : "/";
 
 createRoot(document.getElementById("root")).render(
