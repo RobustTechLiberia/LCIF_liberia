@@ -26,3 +26,7 @@ dist-ssr
 
 # Snyk Security Extension - AI Rules (auto-generated)
 .github/instructions/snyk_rules.instructions.md
+
+# --- Media & Assets Rules ---
+# Force Git to track the hero GIF inside the public folder
+!public/hero.gif
