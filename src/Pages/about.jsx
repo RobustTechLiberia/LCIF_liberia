@@ -1,12 +1,11 @@
 import React from "react";
+import NavBar from "../components/navbar";
 
 class About extends React.Component {
   render() {
     return (
       <>
-        <div className="p-4">
-          <h1 className="text-2xl font-bold">About Us</h1>
-        </div>
+        <NavBar />
       </>
     );
   }
