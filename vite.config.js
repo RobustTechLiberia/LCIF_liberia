@@ -5,6 +5,6 @@ import { defineConfig } from "vite";
 export default defineConfig(() => {
   return {
     plugins: [tailwindcss(), react()],
-    base: '/LCIF_liberia/',
+    base: "/",
   };
 });
