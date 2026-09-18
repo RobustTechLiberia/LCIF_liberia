@@ -49,6 +49,7 @@ class BottomNav extends React.Component {
                 <li>
                   <Link
                     to="/about"
+                    onClick={(e) => e.preventDefault()}
                     className="js-top-nav-link block px-1 py-3  capitalize md:text-xl text-lg font-semibold text-yellow-500"
                   >
                     about us
@@ -57,6 +58,7 @@ class BottomNav extends React.Component {
                 <li>
                   <Link
                     to="/our-impact"
+                    onClick={(e) => e.preventDefault()}
                     className="js-top-nav-link block px-3 py-3 text-heading capitalize md:text-xl text-lg"
                   >
                     our impact
@@ -65,6 +67,7 @@ class BottomNav extends React.Component {
                 <li>
                   <Link
                     to="/get-involved"
+                    onClick={(e) => e.preventDefault()}
                     className="js-top-nav-link block px-3 py-3 text-heading capitalize md:text-xl text-lg"
                   >
                     get involved
@@ -73,6 +76,7 @@ class BottomNav extends React.Component {
                 <li>
                   <Link
                     to="/membership-resources"
+                    onClick={(e) => e.preventDefault()}
                     className="js-top-nav-link block px-3 py-3 text-violet-950 capitalize md:text-xl text-lg"
                   >
                     membership resources
@@ -86,21 +90,33 @@ class BottomNav extends React.Component {
             <div className="flex flex-row py-2 flex-wrap justify-start gap-5 max-w-7xl md:mx-20 text-heading">
               <ul className="mx-2 md:mx-0">
                 <li>
-                  <Link to="/our-organization" className="block p-3">
+                  <Link
+                    to="/our-organization"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3"
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       our organization
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/lions-club-liberia" className="block p-3">
+                  <Link
+                    to="/lions-club-liberia"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3"
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize font-lions">
                       lions club liberia
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/our-core-values" className="block p-3">
+                  <Link
+                    to="/our-core-values"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3"
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize font-sans">
                       our core values
                     </div>
@@ -110,21 +126,33 @@ class BottomNav extends React.Component {
 
               <ul className="md:mx-0 mx-2">
                 <li>
-                  <Link to="/our-leadership" className="block capitalize p-3">
+                  <Link
+                    to="/our-leadership"
+                    onClick={(e) => e.preventDefault()}
+                    className="block capitalize p-3"
+                  >
                     <div className="hover:text-yellow-500 font-semibold">
                       our leadership
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/national-impact" className="block p-3 ">
+                  <Link
+                    to="/national-impact"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       national impact
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/how-membership-works" className="block p-3 ">
+                  <Link
+                    to="/how-membership-works"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       how membership works?
                     </div>
@@ -134,21 +162,33 @@ class BottomNav extends React.Component {
 
               <ul className="hidden md:block">
                 <li>
-                  <Link to="/what-is-lion" className="block p-3 ">
+                  <Link
+                    to="/what-is-lion"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       what is lion?
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/what-is-leo" className="block p-3 ">
+                  <Link
+                    to="/what-is-leo"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       what is leo?
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/membership-club-type" className="block p-3 ">
+                  <Link
+                    to="/membership-club-type"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       membership &amp; club type?
                     </div>
@@ -157,21 +197,33 @@ class BottomNav extends React.Component {
               </ul>
               <ul className="hidden md:block">
                 <li>
-                  <Link to="/partnership" className="block p-3 ">
+                  <Link
+                    to="/partnership"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       partnership
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/lion-stories" className="block p-3 ">
+                  <Link
+                    to="/lion-stories"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       lion stories
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/membership-benefits" className="block p-3 ">
+                  <Link
+                    to="/membership-benefits"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       membership &amp; benefits
                     </div>
@@ -180,21 +232,33 @@ class BottomNav extends React.Component {
               </ul>
               <ul className="hidden md:block">
                 <li>
-                  <Link to="/regional-clubs" className="block p-3 ">
+                  <Link
+                    to="/regional-clubs"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       regional clubs
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/news-media" className="block p-3 ">
+                  <Link
+                    to="/news-media"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       news &amp; media
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ways-to-give" className="block p-3 ">
+                  <Link
+                    to="/ways-to-give"
+                    onClick={(e) => e.preventDefault()}
+                    className="block p-3 "
+                  >
                     <div className="hover:text-yellow-500 font-semibold capitalize">
                       ways to give
                     </div>
